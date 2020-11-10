@@ -1,0 +1,179 @@
+.navbar-light {
+    background: white!important;
+}
+
+.img_logo {
+    width: 150px;
+}
+
+.nav-link {
+    font-size: 1.1em;
+}
+
+.candidato {
+    color: rgb(25, 25, 175)!important;
+}
+
+.empresa {
+    color: rgb(179, 43, 43)!important;
+}
+
+.signup {
+    color: rgb(25, 25, 175)!important;
+    border: 1px solid rgb(25, 25, 175); 
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0px 12px 5px!important;
+    margin-top: 5px!important;
+}
+
+.candidato, .empresa, .sobre-nosotros, .login { 
+    font-weight: bold;
+    padding: 8px 25px!important;
+}
+
+.dot {
+    background-image: url('./dot.png');
+    background-repeat: no-repeat;
+    background-size: 7px;
+    background-position: 0px 20px;
+}
+
+.body-content {
+    margin-top: 40px;
+}
+
+.list-group-item {
+    border: none!important;
+    font-weight: bold;
+}
+
+.list-group-item:hover {
+    color: rgb(25, 25, 175)!important;
+}
+
+.selected {
+    color: rgb(88, 114, 233)!important;
+}
+
+.title {
+    font-weight: 100;
+    font-size: 1.1em;
+    background: rgb(239, 238, 253);
+    padding: 16px;
+    color: black!important;
+    border-bottom: 1px solid rgb(149, 149, 226);
+}
+
+.title-wrapper {
+    width: 110%!important;
+}
+
+.content-wrapper {
+    margin-top: -10px;
+    overflow-y: scroll; 
+    overflow-x: hidden;
+    height: 380px;
+    width: 101%!important;
+    padding: 0px!important;
+}
+
+.content-box {
+    margin-top: 30px;
+    padding-left: 35px!important;
+}
+
+.account-type {
+    font-weight: bold;
+}
+
+.card {
+    display: inline-block!important;
+    width: 40px!important;
+    height: 30p!important;
+    background: rgb(148, 148, 148)!important;
+    color: rgb(148, 148, 148)!important;
+    margin-right: 10px;
+}
+
+.card-data {
+    color: rgb(153, 153, 153);
+    font-size: 0.9em;
+    margin: 1px;
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions-list {
+    margin-right: 20px;
+}
+
+.bl {
+    border-left: 1px solid rgb(130, 130, 246)!important;
+}
+
+.title-box {
+    color: rgb(112, 146, 255);
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.price {
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    margin-top: -4px;
+}
+
+.account-item {
+    font-size: 0.9em;
+    margin: 3px;
+    padding-left: 22px;
+    background-image: url('./check.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 0px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(113, 142, 238);
+  }
+
+  @media (max-width: 600px) {
+    .dot {
+        background-image: none;
+    }
+
+    .body-content {
+        margin-top: 4px!important;
+    }
+
+    .data-content {
+        margin-top: 20px;
+    }
+
+    .content-wrapper {
+        width: 103%!important;
+    }
+
+    .content-box {
+        text-align: left;
+    }
+
+    .title-wrapper {
+        margin-top: 20px;
+    }
+  }
